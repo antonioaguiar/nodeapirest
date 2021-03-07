@@ -1,0 +1,13 @@
+
+POST http://localhost:3333/login HTTP/1.1
+content-type: application/json
+
+{
+    "user": "usuario",
+    "pass": "senha"
+}
+
+###
+
+GET  http://localhost:3333/ HTTP/1.1
+content-type: application/json
